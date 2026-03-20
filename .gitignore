@@ -1,0 +1,28 @@
+# 依存関係
+/node_modules/
+
+# ビルド成果物
+/dist/
+/build/
+/.svelte-kit/
+
+# 環境変数
+/.env
+/.env.*
+!/.env.example
+
+# SQLite データベース (ローカルのデータは管理しない)
+*.db
+*.db-shm
+*.db-wal
+
+# データディレクトリ
+/data/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# エディタ
+.vscode/
+*.swp
