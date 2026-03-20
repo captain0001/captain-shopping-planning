@@ -9,5 +9,5 @@ spec:
   ports:
     - port: 80
       targetPort: 3000
-      nodePort: 30081   # 30080 は household-budget が使用中
+      nodePort: 30082   # 30080: household-budget, 30081: 使用中
   type: NodePort
